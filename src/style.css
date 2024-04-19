@@ -1,0 +1,35 @@
+:root {
+    &.night {
+        background: url('./images/guille-pozzi-SHcHVFhz7-M-unsplash.jpg');
+    }
+    &.day {
+        background: url('./images/arindam-saha-rSLIzC-dlB4-unsplash.jpg');
+    }
+}
+.container {
+    display: flex;
+    justify-content: center;
+}
+.app {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.5rem;
+    background-color: aqua;
+    padding: 3rem;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+}
+.form {
+    form {
+        display: flex;
+        gap: 5px;
+    }
+}
+.data {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+}
